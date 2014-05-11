@@ -1,0 +1,33 @@
+
+OHH 25/1/2013
+
+#*************OHH***********************
+LISTA DE COSAS POR HACER EN PSICOS
+Si faltan cosas ponganlas por favor
+
+VERSION 3.0.0
+-Comentarios en inglÃ©s
+-Camel case
+-A-estrella
+-Revisar Mapa
+
+
+VERSION 3.0.1
+-Comunicaciones
+-Revisar Arma
+-Revisar Pelear
+-Revisar Movimiento
+
+VERSION 3.0.2
+-Interfaz grafica 
+#*************OHH***********************
+
+
+ACM 19/03/2013
+
+#*************ACM***********************
+ El método Pelear ya está implementado de tal forma que el agente debe recorrer su lista de visión hasta que encuentre a un enemigo, si no llega a encontrar ningún enemigo simplemente no pelea y pasa su turno.
+
+Además el ejército y el mapa se han fusionado en una clase llamada Mapa.py, donde además se ha agregado un "mapa de muertos", que es donde se colocan a los soldados que han sido
+eliminados en batalla. En el caso del "mapa de muertos", puede haber más de un muerto en una celda.
+#*************ACM***********************

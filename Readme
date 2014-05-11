@@ -1,0 +1,51 @@
+el formato de las clases es el siguiente
+
+#!/usr/bin/env python
+
+# LISTA DE DESARROLLADORES
+OHH 25/1/2013
+imports
+
+#****************OHH********************
+
+"""Descripcion general de la clase"""
+class AlgoAqui
+	
+	def MetodoUno
+
+	def OtroMetodo
+
+#****************OHH********************
+
+El esquema general del programa es el siguiente:
+
++class Agente
+	*atributos:
+	*m√©todos:
+
++class Celda
+	*atributos:
+	*m√©todos:
+
+//Esta ahora funge como un SUPER MAPA, donde se encuentran: el mapa (que contiene sÛlo Celdas), el ejÈrcito (que contiene sÛlo Agentes) y el mapa de muertos (que contiene los Agentes que han muerto en las batallas).	
+class Mapa
+	*atributos:
+	*m√©todos:
+	
+class Arma
+	*atributos:
+	*m√©todos:
+	
+psicos.py
+	*Diagrama de flujo
+	iniciar mapa
+	iniciar ejercitos
+	while cond:False
+		para cada agente
+		ver
+		moverse
+		pelear
+		revisar cond
+		si cond:True
+			fin
+	
